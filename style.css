@@ -23,14 +23,48 @@ body {
   }
   
   nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     margin-top: 20px;
   }
   
   nav a {
-    color: #111111;
+    color: #111;
     text-decoration: none;
-    margin-right: 20px;
     font-size: 1rem;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #111;
+    min-width: 190px;
+    padding: 10px 0;
+    z-index: 10;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+    color: #111;
+    white-space: nowrap;
+  }
+  
+  .dropdown-content a:hover {
+    background: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
   
   nav a:hover {
@@ -86,6 +120,7 @@ body {
 
   .blog-button {
     display: inline-block;
+    width: fit-content;
     margin-top: 40px;
     margin: 50px auto;
     padding: 14px 28px;
@@ -124,5 +159,5 @@ body {
   .scripture {
     text-align: center;
     font-style: italic;
-    color: #d6d6d6;
+    color: #adabab;
   }
