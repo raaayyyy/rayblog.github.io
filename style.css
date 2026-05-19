@@ -119,9 +119,8 @@ body {
   }
 
   .blog-button {
-    display: inline-block;
+    display: block;
     width: fit-content;
-    margin-top: 40px;
     margin: 50px auto;
     padding: 14px 28px;
     border: 1px solid #adabab;
