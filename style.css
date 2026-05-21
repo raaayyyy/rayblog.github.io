@@ -172,3 +172,91 @@ body {
 .blog-post h2 a:hover {
     opacity: 0.7;
 }
+/* Beauty Blog Formatting */
+
+.blog-entry h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+    color: #111;
+  }
+  
+  .blog-entry p {
+    margin-bottom: 28px;
+  }
+  
+  /* Smaller blue text from the PDF */
+  .blue-note {
+    color: #0b5394;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 28px;
+  }
+  
+  /* Scripture, quotes, and reflective lines */
+  .quote {
+    font-style: italic;
+    color: #0b5394;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: center;
+    margin: 35px 0;
+  }
+  
+  /* Smaller side comments inside the blog */
+  .small-note {
+    color: #0b5394;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  /* PostScript sections */
+  .postscript {
+    color: #0b5394;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-top: 40px;
+  }
+  
+  /* Even smaller final note */
+  .postpostscript {
+    color: #0b5394;
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+  
+  /* Numbered reflection questions */
+  .reflection-questions {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding-left: 35px;
+  }
+  
+  .reflection-questions li {
+    margin-bottom: 12px;
+  }
+  
+  /* Bible verse numbers at the end */
+  .verse-number {
+    font-weight: bold;
+  }
+  
+  /* Long scripture passage at the end */
+  .verse-passage {
+    color: #111;
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  /* Image inside blog posts */
+.blog-image {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .blog-image img {
+    width: 150px;
+  height: auto;
+  border-radius: 6px;
+  }
