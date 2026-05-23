@@ -172,3 +172,19 @@ body {
 .blog-post h2 a:hover {
     opacity: 0.7;
 }
+
+.pdf-link {
+  display: inline-block;
+  margin: 20px 0 40px;
+  padding: 10px 18px;
+  border: 1px solid #adabab;
+  color: #adabab;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.pdf-link:hover {
+  background-color: #adabab;
+  color: #111;
+}
