@@ -568,19 +568,5 @@ main > article.blog-entry {
    ========================= */
 
 .about-entry {
-  padding-top: 68px;
-  padding-bottom: 76px;
-}
-
-.about-entry h2 {
-  margin-bottom: 26px;
-}
-
-.about-entry p {
-  margin-bottom: 30px;
-}
-
-.about-image {
-  margin-top: 46px;
-  margin-bottom: 10px;
+  padding-top: 90px;
 }
