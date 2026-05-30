@@ -533,3 +533,31 @@ footer p {
 .blog-post p {
   margin-bottom: 0;
 }
+
+/* =========================
+   Homepage Body Spacing Fix
+   Cuts extra vertical space roughly in half
+   ========================= */
+
+main > article.blog-entry {
+  padding-top: 24px;
+  padding-bottom: 28px;
+}
+
+.blog-entry > .reading-section {
+  padding-top: 24px;
+  padding-bottom: 28px;
+  border-bottom: none;
+}
+
+/* Tighten scripture spacing too */
+.scripture {
+  margin-top: 26px;
+  margin-bottom: 30px;
+}
+
+/* Tighten space around the Read Writing button */
+.button-container {
+  padding-top: 18px;
+  padding-bottom: 22px;
+}
