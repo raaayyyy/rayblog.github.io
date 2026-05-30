@@ -486,7 +486,7 @@ footer p {
 
 /* Makes About image about the size of the button */
 .about-image {
-  max-width: 190px;
+  max-width: 100px;
   width: 100%;
   margin: 34px auto 0;
 }
@@ -511,4 +511,25 @@ footer p {
 /* Removes the weird extra top spacing from the button */
 .button-container .blog-button {
   margin: 0 auto;
+}
+
+.reading-section {
+  border-bottom: none;
+}
+
+/* =========================
+   Blog Page Alignment Fix
+   ========================= */
+
+.blog-post {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.blog-post h2 {
+  margin-bottom: 14px;
+}
+
+.blog-post p {
+  margin-bottom: 0;
 }
